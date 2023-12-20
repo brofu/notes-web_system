@@ -1,0 +1,20 @@
+{
+    "title": "Brofu's Talk",
+    "sortedBy": "-",
+    "unchanged": ["MySQL","ClickHouse", "ElasticSearch"],
+    "plugins": ["plantuml-cloud", "disqus"] ,
+    "pluginsConfig": {
+    "plantuml-cloud": {
+      "umlPath": "images/uml",
+      "protocol": "http",
+      "type": "plantuml-server",
+      "host": "www.plantuml.com",
+      "port": "80",
+      "path": "/plantuml/svg"
+    },
+    "disqus": {
+    "shortName":"brofu-tech"
+    }
+  }
+
+}
