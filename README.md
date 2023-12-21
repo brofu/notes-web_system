@@ -60,5 +60,8 @@ right side
 ***[#azure] Elastic Deployment
 ***[#azure] Service Discovery
 
+
+**[#azure] Performance
+
 @endmindmap
 ```
