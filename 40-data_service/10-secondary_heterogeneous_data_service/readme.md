@@ -34,10 +34,14 @@ In the real world, MySQL is widely used as data store for e-commerce scenarios. 
 ##### Solution
 
 The illustration of a possible solution as follows. 
-* The `Order Service` is the user side to this data service
-* The blue narrows stands for the **data sync**, which is asynchronous in the solution.
-* The green narrows stands for the **data query** flow.  
-* The pink narrows illustrate the **data consistency verification & fixing** flow.
+
+* The `Order Service` is the user side to this data service. And typically, it updates the data to the main data store.
+
+* The blue narrows stands for the **data sync**, which is asynchronous in the solution. Usually, some other components (`Kafka` as queue, for example) is are involved to make the system more functional and reliable. And this example, `ElasticSearch` is used for the secondary store. It depends on the business scenario what storage should be used for the secondary store. 
+
+* The green narrows stands for the **data query** flow. 
+
+* The pink narrows illustrate the **data consistency verification & fixing** flow. This workflow is to handle the **data consistency** problem mentioned above.
 
 In the following articles, let's talk about the details of each part.
 

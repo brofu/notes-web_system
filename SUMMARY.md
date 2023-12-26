@@ -5,6 +5,7 @@
 - [Business Service](30-business_service/readme.md)
 - [Data Service](40-data_service/readme.md)
   - [Secondary Heterogeneous Data Service](40-data_service/10-secondary_heterogeneous_data_service/readme.md)
+    * [Pipeline](40-data_service/10-secondary_heterogeneous_data_service/00-pipeline.md)
 - [Middleware](50-middleware/readme.md)
   - [Rpc](50-middleware/10-rpc/readme.md)
     - [Design](50-middleware/10-rpc/01-design/readme.md)
